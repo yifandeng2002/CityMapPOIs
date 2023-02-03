@@ -40,5 +40,5 @@ Facilities
 Waste Management
 Others
 
-### 5.draw the boundary of Bronx
+### 4.draw the boundary of Bronx
 area_name = "南沙区, 广州, 中国" area, edges = ox.geocode_to_gdf(area_name) area.plot()
