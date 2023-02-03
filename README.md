@@ -2,8 +2,7 @@
 City grids and POI crawling for data visualization.
 
 ## Usage
-### 1.Instal Matplotlib 3.1.3
-Install numpy
+### 1.Instal Matplotlib 3.1.3 and numpy
 ### 2.Building footprint
 osmnx.geometries module
 Download geospatial entities’ geometries and attributes from OpenStreetMap.
@@ -40,5 +39,5 @@ Facilities
 Waste Management
 Others
 
-### 4.draw the boundary of Bronx
+### 4.draw the boundary of Nansha
 area_name = "南沙区, 广州, 中国" area, edges = ox.geocode_to_gdf(area_name) area.plot()
