@@ -1,10 +1,10 @@
 # CityMapPOIs
 City grids and POI crawling for data visualization.
 
-Usage
-1.Instal Matplotlib 3.1.3
+## Usage
+### 1.Instal Matplotlib 3.1.3
 Install numpy
-2.Building footprint
+### 2.Building footprint
 osmnx.geometries module
 Download geospatial entities’ geometries and attributes from OpenStreetMap.
 Retrieve points of interest, building footprints, or any other objects from OSM, including their geometries and attribute data, and construct a GeoDataFrame of them.
@@ -21,12 +21,12 @@ tags
 tags = {"building": True} would return all building footprints in the area
 tags = {"amenity":True, "landuse":["retail","commercial"], "highway":"bus_stop"} would return all amenities, landuse=retail, landuse=commercial, and highway=bus_stop.
 
-3. Points of interest (POI)
+### 3.Points of interest (POI)
 Points-of-interest
 OpenStreetMap POI features
 https://wiki.openstreetmap.org/wiki/Map_features
 
-# Amenity
+Amenity
 Used to map facilities used by visitors and residents. For example: toilets, telephones, banks, pharmacies, cafes, parking and schools. See the page Amenities for an introduction on its usage.
 
 Sustenance
@@ -40,5 +40,5 @@ Facilities
 Waste Management
 Others
 
-4.draw the boundary of Bronx
+### 5.draw the boundary of Bronx
 area_name = "南沙区, 广州, 中国" area, edges = ox.geocode_to_gdf(area_name) area.plot()
